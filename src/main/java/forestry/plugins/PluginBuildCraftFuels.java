@@ -54,6 +54,7 @@ public class PluginBuildCraftFuels extends BlankForestryModule {
 
 				coolantManager.addCoolant(ice, Constants.ICE_COOLING_MULTIPLIER * waterCooling);
 			}
+		coolantManager.addCoolant(crushedIce, Constants.ICE_COOLING_MULTIPLIER * waterCooling);
 		}
 		Fluid ethanol = Fluids.BIO_ETHANOL.getFluid();
 		if (ethanol != null) {
