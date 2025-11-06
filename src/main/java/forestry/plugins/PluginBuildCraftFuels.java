@@ -34,7 +34,7 @@ public class PluginBuildCraftFuels extends BlankForestryModule {
 
 	@Override
 	public boolean isAvailable() {
-		return ModUtil.isModLoaded(Constants.BCLIB_MOD_ID, "[7.99.17,8.0)");
+		return ModUtil.isModLoaded(Constants.BCLIB_MOD_ID, "[7.99.17,9.0)");
 	}
 
 	@Override
